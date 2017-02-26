@@ -1,10 +1,6 @@
-.openerp .oe_form_field_one2many, .openerp .oe_form_field_many2many {
-  overflow-y: hidden;
-  position:relative;
-}
-.openerp .oe_list_content td, .openerp .oe_list_content th {
+.o_list_view  td, .o_list_view th {
   white-space: nowrap;
 }
-.openerp .oe_list_content > tbody > tr > td.oe_list_field_cell {
+.o_list_view  > tbody > tr > td.o_handle_cell {
   white-space: nowrap;
-}
+
